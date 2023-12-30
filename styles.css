@@ -26,23 +26,17 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  overflow: hidden;
 }
 
 img {
   display: block;
 }
 
-menu:not(article menu),
-ol:not(article ol),
-ul:not(article ul) {
+menu:not(article menu) {
   list-style: none;
 }
 
-menu,
-ol,
-ul {
+menu {
   padding-left: 0;
 }
 
